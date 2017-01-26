@@ -1,5 +1,6 @@
 # Sitecore.Support.96322
-Replaces the Device Editor dialog to save the ID of the Placeholder Settings item instead of its full path
+The `Device Editor` dialog saves the full path of the `Placeholder Settings` item instead of its ID.<br/>
+This patch fixes the described behavior.
 
 ## License  
 This patch is licensed under the [Sitecore Corporation A/S License for GitHub](https://github.com/sitecoresupport/Sitecore.Support.96322/blob/master/LICENSE).  
