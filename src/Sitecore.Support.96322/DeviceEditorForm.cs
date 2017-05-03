@@ -450,9 +450,9 @@ namespace Sitecore.Support.Shell.Applications.Layouts.DeviceEditor
                     {
                         return;
                     }
-                    // Sitecore.Support.96322
-                    // placeholder.MetaDataItemId = item.ID.ToString();
-                    placeholder.MetaDataItemId = item.Paths.FullPath;
+                    //Sitecore.Support.96322
+                    //placeholder.MetaDataItemId = item.Paths.FullPath;
+                    placeholder.MetaDataItemId = item.ID.ToString(); 
                     placeholder.Key = key;
                     DeviceEditorForm.SetDefinition(layoutDefinition);
                     this.Refresh();
